@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+}
+.container > .dog  img {
+    width: 100%;
+    border-radius: 20px;
+}
+.add {
+    background-color: brown;
+    border-radius: 20px;
+}
